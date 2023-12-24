@@ -1,0 +1,3 @@
+After watching Sebastian Lague's [Algorithms Explained – minimax and alpha-beta pruning](https://youtu.be/l-hh51ncgDI?si=6a_xXO1sQ1arV7jE), I became interested in applying this strategy to multiple games.  The only functions you need from a game are ones to get the neighboring states (for example, given an empty tic-tac-toe board, the neighboring states are any board with one tile placed) and a function to statically evaluate a position.  
+
+At the moment, this repository is effectively equivalent to notes written on a napkin - but I think the premise of creating a function where the input is a game module and the output is a function that can suggest a good move is interesting.

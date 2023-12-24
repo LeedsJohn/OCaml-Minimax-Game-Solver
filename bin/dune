@@ -1,0 +1,5 @@
+(executable
+ (public_name game_solver)
+ (name main)
+ (libraries core game_solver)
+ (preprocess (pps ppx_jane)))

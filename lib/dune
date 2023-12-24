@@ -1,0 +1,5 @@
+(library
+ (name game_solver)
+ (libraries core ppx_jane)
+ (inline_tests)
+ (preprocess (pps ppx_jane)))
